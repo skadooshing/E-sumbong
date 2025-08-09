@@ -1,0 +1,13 @@
+{
+  "name": "projectko",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "proxy": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://localhost:8000/api"
+    }
+  ]
+}
